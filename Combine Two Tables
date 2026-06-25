@@ -1,0 +1,16 @@
+-- LeetCode 175 - Combine Two Tables
+-- Concept: LEFT JOIN
+-- Difficulty: Easy
+-- Language: MySQL/SQL
+-- Link: https://leetcode.com/problems/combine-two-tables/
+
+-- Código:
+
+select 
+    Person.firstname,
+    Person.lastname,
+    Address.city,
+    Address.state
+from Person
+left join Address
+    on Person.personid = Address.personid;
