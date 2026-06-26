@@ -10,7 +10,7 @@ Minha coleção de soluções para problemas do LeetCode.
 
 | Easy | Medium | Hard | Total |
 |:----:|:------:|:----:|:-----:|
-| 1 | 0 | 0 | 0 |
+| 2 2| 0 | 0 | 0 |
 
 
 ## 🎯 Objetivo
