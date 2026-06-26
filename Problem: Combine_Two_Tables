@@ -4,7 +4,7 @@
 -- Language: MySQL/SQL
 -- Link: https://leetcode.com/problems/combine-two-tables/
 
--- Código:
+-- Code: 
 
 select 
     Person.firstname,
