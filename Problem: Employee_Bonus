@@ -1,0 +1,15 @@
+-- LeetCode 577 - Employee Bonus
+-- Concept: LEFT JOIN / WHERE
+-- Difficulty: Easy
+-- Language: MySQL/SQL
+-- Link: https://leetcode.com/problems/employee-bonus/description/
+
+-- Code:
+
+select
+    Employee.name,
+    Bonus.bonus
+from Employee
+left join Bonus
+    on Employee.empid = Bonus.empid
+where bonus < 1000 or bonus is null;
